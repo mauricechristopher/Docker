@@ -1,0 +1,5 @@
+#in case of error try: eval $(docker-machine env)
+#if Error checking TLS connection occurs run: docker-machine regenerate-certs Char
+#now it should work
+
+eval $(docker-machine env Char)

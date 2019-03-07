@@ -1,0 +1,5 @@
+#docker-machine ssh Char
+docker swarm init --advertise-addr $(docker-machine ip Char):2377
+
+#run docker info and look for Manager=True to see if it worked
+#can also run: docker node ls

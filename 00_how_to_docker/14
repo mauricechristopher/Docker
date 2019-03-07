@@ -1,0 +1,5 @@
+#-d: Run container in background and print container ID
+#-p: Publish a container's port(s) to the host
+#--link: Adds link to another container
+
+docker run -d --name lair -p 8080:80 --link spawning-pool:mysql wordpress
